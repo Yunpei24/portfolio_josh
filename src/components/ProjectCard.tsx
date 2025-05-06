@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { cn } from '@/lib/utils';
 import { ArrowRight, ExternalLink } from 'lucide-react';
@@ -25,7 +24,8 @@ const ProjectCard = ({
   return (
     <div 
       className={cn(
-        "bg-white rounded-xl shadow-md overflow-hidden card-hover min-h-[400px] md:min-h-[500px] flex",
+        "bg-white rounded-xl shadow-md overflow-hidden card-hover flex",
+        "min-h-[400px] md:min-h-[500px]",
         className
       )}
       onMouseEnter={() => setIsHovered(true)}
@@ -35,16 +35,20 @@ const ProjectCard = ({
         "flex flex-col md:flex-row w-full",
         reverse && "md:flex-row-reverse"
       )}>
-        <div className="md:w-1/2 h-60 md:h-auto">
-          <img 
-            src={imageSrc} 
-            alt={title} 
-            className={cn(
-              "w-full h-full object-cover transition-transform duration-700", 
-              isHovered && "scale-105"
-            )}
-          />
+        {/* Image container with aspect ratio to preserve full image */}
+        <div className="md:w-1/2 w-full">
+          <div className="w-full aspect-video overflow-hidden">
+            <img 
+              src={imageSrc} 
+              alt={title} 
+              className={cn(
+                "w-full h-full object-contain transition-transform duration-700",
+                isHovered && "scale-105"
+              )}
+            />
+          </div>
         </div>
+
         <div className="md:w-1/2 p-6 md:p-8 flex flex-col justify-center">
           <h3 className="text-xl font-bold mb-3 text-joshua-dark">
             {title}
