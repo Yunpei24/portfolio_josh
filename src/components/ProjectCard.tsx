@@ -63,7 +63,7 @@ const ProjectCard = ({
                 <>
                   View Project
                   <ExternalLink 
-                    size={16} 
+                    size={18} 
                     className="ml-2 transition-transform group-hover:translate-x-1" 
                   />
                 </>
@@ -71,7 +71,7 @@ const ProjectCard = ({
                 <>
                   Learn More
                   <ArrowRight 
-                    size={16} 
+                    size={18} 
                     className="ml-2 transition-transform group-hover:translate-x-1" 
                   />
                 </>

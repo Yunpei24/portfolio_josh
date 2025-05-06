@@ -89,7 +89,7 @@ const Hero = () => {
                 }}
               >
                 <img
-                  src="/placeholder.svg"
+                  src="/images/just.png"
                   alt="Portrait of Joshua NIKIEMA"
                   className="w-full rounded-2xl shadow-2xl"
                 />

@@ -21,14 +21,14 @@ const ProjectsPage = () => {
       id: 3,
       title: "Dashboard via MongoDB Atlas API (Streamlit & FastAPI)",
       description: "Created an API (FastAPI) to extract data from MongoDB Atlas and developed an interactive dashboard (Streamlit) to visualize this data. Allows for intuitive exploration and analysis of information.",
-      imageSrc: "/placeholder.svg",
+      imageSrc: "/images/apimongo.png",
       link: "https://dashboardmongodatlasapp-josh24.streamlit.app/"
     },
     {
       id: 4,
       title: "Runner-up - P.A.S Challenge 2023 (2nd edition)",
       description: "Contributed to a reforestation tracking solution using Computer Vision (AI) for UNDP. Our application maps and assesses vegetation cover and carbon credits.",
-      imageSrc: "portfolio_josh/public/images/apimongo.png",
+      imageSrc: "/images/fdTeam.jpg",
     },
     {
       id: 5,
