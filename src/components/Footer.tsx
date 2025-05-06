@@ -1,5 +1,5 @@
 
-import { Github, Linkedin, Instagram, Mail, Telegram } from 'lucide-react';
+import { Github, Linkedin, Instagram, Mail, MessageCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -46,7 +46,7 @@ const Footer = () => {
               className="hover:text-joshua-primary transition-colors transform hover:-translate-y-1 inline-block"
               aria-label="Telegram"
             >
-              <Telegram size={24} />
+              <MessageCircle size={24} />
             </a>
           </div>
           
