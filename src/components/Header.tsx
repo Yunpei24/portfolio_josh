@@ -40,9 +40,11 @@ const Header = () => {
     )}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <span className="text-xl font-bold text-joshua-dark">
-            Joshua<span className="text-joshua-primary">.</span>
-          </span>
+          <img 
+            src="/placeholder.svg" 
+            alt="Joshua NIKIEMA Logo" 
+            className="h-12 w-auto"
+          />
         </Link>
         
         {/* Desktop Navigation */}

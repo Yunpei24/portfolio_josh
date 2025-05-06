@@ -29,8 +29,12 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center pt-24 pb-16 bg-joshua-light/30 overflow-hidden">
-      <div className="container mx-auto px-4">
+    <section className="min-h-screen flex items-center pt-24 pb-16 bg-joshua-light/30 overflow-hidden relative">
+      {/* Background with gradient overlay */}
+      <div className="absolute inset-0 z-0 bg-gradient-to-br from-joshua-primary/10 to-joshua-secondary/10" />
+      <div className="absolute inset-0 z-0 opacity-10 bg-[url('/placeholder.svg')] bg-cover bg-center" />
+      
+      <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-wrap-reverse md:flex-nowrap items-center">
           <AnimatedSection 
             className="w-full md:w-1/2 pt-8 md:pt-0" 
