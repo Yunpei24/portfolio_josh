@@ -41,7 +41,7 @@ const Header = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center">
           <img 
-            src="/placeholder.svg" 
+            src="/images/Logo-sf.png" 
             alt="Joshua NIKIEMA Logo" 
             className="h-12 w-auto"
           />

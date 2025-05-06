@@ -11,13 +11,13 @@ const Index = () => {
       id: 1,
       title: "Runner-up - P.A.S Challenge 2023 (2nd edition)",
       description: "Contributed to a reforestation tracking solution using Computer Vision (AI) for UNDP. Our application maps and assesses vegetation cover and carbon credits.",
-      imageSrc: "/placeholder.svg",
+      imageSrc: "/images/fdTeam2.jpg",
     },
     {
       id: 2,
       title: "Winning Team - P.A.S Challenge 2022 (1st edition)",
       description: "Developed an AI tool (in partnership with IAS, UNDP, AUF) to transcribe and translate medical notes (French, English, local languages) to generate digital prescriptions.",
-      imageSrc: "/placeholder.svg",
+      imageSrc: "/images/fdTeam.jpg",
     }
   ];
 

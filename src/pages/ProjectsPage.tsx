@@ -9,13 +9,13 @@ const ProjectsPage = () => {
       id: 1,
       title: "University Analysis & Reporting (Power BI)",
       description: "Designed a Power BI dashboard for a university to effectively visualize and manage teacher and student tardiness and absences. The goal is to optimize schedules and improve academic tracking.",
-      imageSrc: "/placeholder.svg",
+      imageSrc: "/images/firstprojectBI.png",
     },
     {
       id: 2,
       title: "Web Data Generator",
       description: "Developed an interactive web application (potentially using Python/Flask/Django for the backend) to generate realistic and customizable datasets. Ideal for testing analysis algorithms or learning multidimensional database design.",
-      imageSrc: "/placeholder.svg",
+      imageSrc: "/images/generator.png",
     },
     {
       id: 3,
@@ -28,13 +28,13 @@ const ProjectsPage = () => {
       id: 4,
       title: "Runner-up - P.A.S Challenge 2023 (2nd edition)",
       description: "Contributed to a reforestation tracking solution using Computer Vision (AI) for UNDP. Our application maps and assesses vegetation cover and carbon credits.",
-      imageSrc: "/placeholder.svg",
+      imageSrc: "portfolio_josh/public/images/apimongo.png",
     },
     {
       id: 5,
       title: "Winning Team - P.A.S Challenge 2022 (1st edition)",
       description: "Developed an AI tool (in partnership with IAS, UNDP, AUF) to transcribe and translate medical notes (French, English, local languages) to generate digital prescriptions.",
-      imageSrc: "/placeholder.svg",
+      imageSrc: "/images/fdTeam.jpg",
     }
   ];
 

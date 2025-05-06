@@ -76,7 +76,7 @@ const Hero = () => {
                 }}
               >
                 <img
-                  src="/placeholder.svg"
+                  src="/images/just.png"
                   alt="Background Shape"
                   className="w-full opacity-50"
                 />
