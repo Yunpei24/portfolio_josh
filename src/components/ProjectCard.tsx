@@ -25,22 +25,22 @@ const ProjectCard = ({
   return (
     <div 
       className={cn(
-        "bg-white rounded-xl shadow-md overflow-hidden card-hover",
+        "bg-white rounded-xl shadow-md overflow-hidden card-hover min-h-[400px] md:min-h-[500px] flex",
         className
       )}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
       <div className={cn(
-        "flex flex-col md:flex-row", 
+        "flex flex-col md:flex-row w-full",
         reverse && "md:flex-row-reverse"
       )}>
-        <div className="md:w-1/2 overflow-hidden">
+        <div className="md:w-1/2 h-60 md:h-auto">
           <img 
             src={imageSrc} 
             alt={title} 
             className={cn(
-              "w-full h-64 object-cover transition-transform duration-700", 
+              "w-full h-full object-cover transition-transform duration-700", 
               isHovered && "scale-105"
             )}
           />
@@ -81,7 +81,7 @@ const ProjectCard = ({
         </div>
       </div>
     </div>
-  );
+  );  
 };
 
 export default ProjectCard;
