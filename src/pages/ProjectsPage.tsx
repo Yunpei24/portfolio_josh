@@ -28,7 +28,7 @@ const ProjectsPage = () => {
       id: 4,
       title: "Runner-up - P.A.S Challenge 2023 (2nd edition)",
       description: "Contributed to a reforestation tracking solution using Computer Vision (AI) for UNDP. Our application maps and assesses vegetation cover and carbon credits.",
-      imageSrc: "/images/fdTeam.jpg",
+      imageSrc: "/images/fdTeam2.jpg",
     },
     {
       id: 5,
